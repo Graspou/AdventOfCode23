@@ -54,7 +54,6 @@ for i in range(len(l)):
     for j in range(len(l[0])):
         s += str(l[i][j]) if '0' <= l[i][j] <= '9' else ''
         if s and (l[i][j] < '0' or l[i][j] > '9'):
-            print(s)
             res += int(s) if b else 0
             b = False
             s = ""
