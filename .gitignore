@@ -1,2 +1,7 @@
 input/
 tmp/
+tmp.py
+tmp.c
+tmp2.py
+DS_Store/
+compile.sh
