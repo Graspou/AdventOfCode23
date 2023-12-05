@@ -1,1 +1,1 @@
-clang -Wall -g day$1.c -o tmp/day$1
+clang -Wall -g -Ofast day$1.c -o tmp/day$1
